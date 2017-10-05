@@ -1,4 +1,15 @@
 body {
-    margin: 0;
-    padding: 0;
+    padding-top: 60px;
+}
+
+p {
+    padding-bottom: 900px;
+}
+
+#about {
+    padding-top: 60px;
+}
+
+#contact {
+    padding-top: 60px;
 }

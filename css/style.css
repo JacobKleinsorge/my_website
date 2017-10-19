@@ -1,3 +1,11 @@
-.active {
-    color: darkred;
+.navbar-collapse .navbar-nav > li.dropdown:hover > a, 
+.navbar-collapse .navbar-nav > li.dropdown:hover > a:hover,
+.navbar-collapse .navbar-nav > li.dropdown:hover > a:focus, 
+.navbar-collapse .navbar-nav > li.dropdown > ul > li > a:hover, 
+.navbar-collapse .navbar-nav > li.dropdown > ul > li > a:focus {
+    background-color: purple;
+    color: red;
+}
+li.dropdown:hover > .dropdown-menu {
+    display: block;
 }

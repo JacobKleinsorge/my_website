@@ -4,8 +4,8 @@ $(document).ready(function() {
     $('.navbar-nav>li>a').on('click', function(){
         $('.navbar-collapse').collapse('hide');
     });
-    $('.navbar-nav>li>a').on('click', function(){
-        $('.navbar-nav').children.removeClass('active');
-        $(this.parent).addClass('active');
+    $('.navbar-collapse .navbar-nav > li.nav-item > a').on('click', function(){
+        $('.navbar-nav li').removeClass('active');
+        $(this).parent().addClass('active');
     });
 });
